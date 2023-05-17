@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Análisis gramatical para niños de primaria</h1>
+	<div class="frase-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <span class="palabra" id="palabra1" draggable="true" ondragstart="drag(event)">El</span>
+    <span class="palabra" id="palabra2" draggable="true" ondragstart="drag(event)">niño</span>
+    <span class="palabra" id="palabra3" draggable="true" ondragstart="drag(event)">come</span>
+    <span class="palabra" id="palabra4" draggable="true" ondragstart="drag(event)">una</span>
+    <span class="palabra" id="palabra5" draggable="true" ondragstart="drag(event)">manzana</span>
+    <span class="palabra" id="palabra6" draggable="true" ondragstart="drag(event)">roja</span>
+    <span class="palabra" id="palabra7" draggable="true" ondragstart="drag(event)">en</span>
+    <span class="palabra" id="palabra8" draggable="true" ondragstart="drag(event)">el</span>
+    <span class="palabra" id="palabra9" draggable="true" ondragstart="drag(event)">parque</span>
+  </div>
+
+	<div id="simbolos-container">
+		<div class="simbolo" id="verbo" draggable="true">Verbo</div>
+		<div class="simbolo" id="sujeto" draggable="true">Sujeto</div>
+		<div class="simbolo" id="sustantivo" draggable="true">Sustantivo</div>
+		<div class="simbolo" id="preposicion" draggable="true">Preposición</div>
+		<div class="simbolo" id="adjetivo" draggable="true">Adjetivo</div>
+		<div class="simbolo" id="articulo" draggable="true">Artículo</div>
+	</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
