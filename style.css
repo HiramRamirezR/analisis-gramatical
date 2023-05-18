@@ -44,34 +44,38 @@ body {
   cursor: move;
 }
 
-.simbolo:hover {
-  background-color: #005ea3;
-}
-
-.simbolo:active {
-  opacity: 0.5;
-}
-
-.simbolo.sujeto {
-  background-color: #f37735;
-}
-
-.simbolo.verbo {
-  background-color: #2ecc71;
-}
-
 .simbolo.sustantivo {
-  background-color: #d35400;
-}
-
-.simbolo.preposicion {
-  background-color: #3498db;
-}
-
-.simbolo.adjetivo {
-  background-color: #9b59b6;
+  background-color: #000000;
 }
 
 .simbolo.articulo {
-  background-color: #f1c40f;
+  background-color: #00c8ff;
+}
+
+.simbolo.adjetivo {
+  background-color: #001d87;
+}
+
+.simbolo.verbo {
+  background-color: #ff0000;
+}
+
+.simbolo.adverbio {
+  background-color: #ff9100;
+}
+
+.simbolo.pronombre {
+  background-color: #9f50bc;
+}
+
+.simbolo.conjuncion {
+  background-color: #ffa0fd;
+}
+
+.simbolo.preposicion {
+  background-color: #0c891c;
+}
+
+.simbolo.interjeccion {
+  background-color: #ffc800;
 }/*# sourceMappingURL=style.css.map */
